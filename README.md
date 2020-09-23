@@ -1,4 +1,4 @@
-# Pages for GutHub
+# Pages for GitHub
 
 This is a pseudo mirror of https://xgqt.gitlab.io
 

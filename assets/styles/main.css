@@ -1,3 +1,24 @@
+/*
+ * This file is part of xgqt.gitlab.io.
+
+ * xgqt.gitlab.io is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+
+ * xgqt.gitlab.io is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+
+ * You should have received a copy of the GNU General Public License
+ * along with xgqt.gitlab.io.  If not, see <https://www.gnu.org/licenses/>.
+
+ * Copyright (c) 2020-2021, Maciej Barć (xgqt@protonmail.com)
+ * Licensed under the GNU GPL v3 License
+ */
+
+
 /* General */
 
 html,
@@ -28,9 +49,9 @@ a:visited {
     border-radius: 15px;
     box-shadow: 0 20px 70px #000000;
     font-family: Arial, Helvetica, sans-serif;
-    height: 85%;
+    height: 90%;
     margin: 30px auto;
-    width: 85%;
+    width: 80%;
 }
 
 
@@ -55,7 +76,7 @@ a:visited {
 #left {
     color: #fdf6e3;
     float: left;
-    font-size:  calc(5px + 1.2vw);
+    font-size: min( calc(5px + 1.2vw), 20px );
     height: 100%;
     overflow: auto;
     width: 25%;

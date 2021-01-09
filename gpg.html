@@ -2,6 +2,24 @@
 
 
 <!--
+     This file is part of xgqt.gitlab.io.
+
+     xgqt.gitlab.io is free software: you can redistribute it and/or modify
+     it under the terms of the GNU General Public License as published by
+     the Free Software Foundation, either version 3 of the License, or
+     (at your option) any later version.
+
+     xgqt.gitlab.io is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with xgqt.gitlab.io.  If not, see <https://www.gnu.org/licenses/>.
+
+     Copyright (c) 2020-2021, Maciej Barć (xgqt@protonmail.com)
+     Licensed under the GNU GPL v3 License
+
                       _          _ _   _       _      _
      __  ____ _  __ _| |_   __ _(_) |_| | __ _| |__  (_) ___
      \ \/ / _` |/ _` | __| / _` | | __| |/ _` | '_ \ | |/ _ \
@@ -34,10 +52,8 @@
         <link rel="icon" href="assets/icons/favicon.png" />
         <link rel="stylesheet" href="assets/styles/main.css"/>
 
-        <!-- https://github.com/FortAwesome/Font-Awesome -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
-        <!-- https://github.com/Lukas-W/font-logos -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Lukas-W/font-logos@v0.12/assets/font-logos.css"/>
+        <link rel="stylesheet" href="./assets/fonts/awesome/css/font-awesome.css"/>
+        <link rel="stylesheet" href="./assets/fonts/logos/assets/font-logos.css"/>
 
     </head>
 
@@ -56,16 +72,6 @@
                         Find me on:
                     </dt>
                     <dd>
-                        <a href="https://gitlab.com/xgqt">
-                            <i class="fa fa-gitlab"></i> GitLab
-                        </a>
-                    </dd>
-                    <dd>
-                        <a href="https://github.com/xgqt">
-                            <i class="fa fa-github"></i> GitHub
-                        </a>
-                    </dd>
-                    <dd>
                         <a href="mailto:xgqt@protonmail.com">
                             <i class="fa fa-envelope"></i> E-mail
                         </a>
@@ -76,6 +82,11 @@
                         </a>
                     </dd>
                     <dd>
+                        <a href="https://fosstodon.org/@xgqt/">
+                            <i class="fa fa-bullhorn"></i> Mastodon
+                        </a>
+                    </dd>
+                    <dd>
                         <a href="https://repology.org/maintainer/xgqt%40protonmail.com">
                             <i class="fa fa-plus-square"></i> Repology
                         </a>
@@ -83,6 +94,38 @@
                     <dd>
                         <a href="https://wiki.gentoo.org/wiki/User:Xgqt">
                             <i class="fl-gentoo"></i> Gentoo Wiki
+                        </a>
+                    </dd>
+                </dl>
+
+                <dl>
+                    <dt>
+                        <i class="fa fa-code-fork"></i>
+                        Development:
+                    </dt>
+                    <dd>
+                        <a href="https://gitlab.com/xgqt">
+                            <i class="fa fa-gitlab"></i> GitLab
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="https://github.com/xgqt">
+                            <i class="fa fa-github"></i> GitHub
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="https://gitlab.com/users/xgqt/projects">
+                            <i class="fa fa-gitlab"></i> Projects
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="https://github.com/gentoo/guru/commits?author=xgqt">
+                            <i class="fa fa-github-alt"></i> GURU
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="https://github.com/gentoo/gentoo/commits?author=xgqt">
+                            <i class="fa fa-github-alt"></i> Gentoo
                         </a>
                     </dd>
                 </dl>
@@ -103,18 +146,18 @@
                         </a>
                     </dd>
                     <dd>
-                        <a href="https://gitlab.com/users/xgqt/projects">
-                            <i class="fa fa-code-fork"></i> Projects
-                        </a>
-                    </dd>
-                    <dd>
-                        <a href="https://github.com/gentoo/guru/commits?author=xgqt">
-                            <i class="fa fa-github-alt"></i> GURU
-                        </a>
-                    </dd>
-                    <dd>
                         <a href="donate.html">
                             <i class="fa fa-money"></i> Donate
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="https://xgqt.gitlab.io/startpage/">
+                            <i class="fa fa-sitemap"></i> Startpage
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="https://xgqt.gitlab.io/spywarewatchdog/">
+                            <i class="fa fa-eye"></i> Spyware Watchdog
                         </a>
                     </dd>
                 </dl>
@@ -139,7 +182,7 @@
 
                 <div class="code-block">
                     <p>
-                        gpg --keyserver hkps://hkps.pool.sks-keyservers.net --recv-keys 9B0A4C5D02A3B43C9D6FD6B114D74A1F43A6AC3C
+                        gpg --keyserver hkps.pool.sks-keyservers.net --recv-keys "9B0A4C5D02A3B43C9D6FD6B114D74A1F43A6AC3C"
                     </p>
                     <p>
                         gpg --list-keys 9B0A4C5D02A3B43C9D6FD6B114D74A1F43A6AC3C
